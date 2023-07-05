@@ -1,0 +1,91 @@
+    1  kubeadm join 192.168.0.18:6443 --token aiur0d.f8qvgcla2k6lvrwy         --discovery-token-ca-cert-hash sha256:bd0c69c75a4444080bdb693a272fc187f8b811b2824741827fca64959e37a42c
+    2  kubectl
+    3  kubectl get nodes
+    4  clear
+    5  pwd
+    6  ls
+    7  nano
+    8  vi
+    9  ls
+   10  clear
+   11  vi Dockerfile
+   12  ls
+   13  vi package.json
+   14  cat package.json 
+   15  clear
+   16  ls
+   17  vi index.js
+   18  cat index.js 
+   19  clear
+   20  vi Dockerfile
+   21  ls
+   22  cat Dockerfile
+   23  clear
+   24  docker build .
+   25  docker image ls
+   26  clear
+   27  docker run -p 3000:3000 -d 11a18230d1f8
+   28  docker ps
+   29  curl 0.0.0.0:3000
+   30  ls
+   31  vi index.js
+   32  curl 0.0.0.0:3000
+   33  vi index.js
+   34  cat index.js 
+   35  vi index.js
+   36  cat index.js 
+   37  cclear
+   38  clear
+   39  docker ps
+   40  curl 0.0.0.0:3000
+   41  docker stop 79160b73bcc8
+   42  docker ps
+   43  docker ps -a
+   44  docker start 79160b73bcc8
+   45  docker ps
+   46  curl 0.0.0.0:3000
+   47  docker stop jolly_gould
+   48  docker ps
+   49  clear
+   50  vi index.js
+   51  cat index.js 
+   52  vi index.js 
+   53  cat index.js 
+   54  vi index.js 
+   55  cat index.js 
+   56  vi index.js 
+   57  clear
+   58  cat index.js 
+   59  docker build .
+   60  docker image ls
+   61  clear
+   62  docker run -d -p 3000:3000 --name node-docker ddfdd458847c
+   63  docker ps
+   64  curl 0.0.0.0:3000
+   65  docker f8b3
+   66  docker stop f8b3
+   67  docker ps
+   68  docker build . -t node-docker-image
+   69  docker image ls
+   70  clear
+   71  docker run -d -p 3000:3000 --name node-docker-2 node-docker-image
+   72  docker ps
+   73  curl 0.0.0.0:3000
+   74  docker stop 600
+   75  docker stop $(docker ps -a -q)
+   76  docker ps
+   77  docker image Ãls
+   78  docker image ls
+   79  docker rmi 11a18230d1f8
+   80  docker ps -a
+   81  docker rm 79160b73bcc8
+   82  docker rmi 11a18230d1f8
+   83  docker image ls
+   84  docker ps -a
+   85  docker system prune
+   86  clear
+   87  history
+   88  history > vi comandos_terminal
+   89  touch comandos.txt
+   90  ls
+   91  history > comandos.txt 
